@@ -20,7 +20,7 @@ public class PrintStringInReverse {
             index--;
         }
         System.out.println(reverseString);
+        scnr.close();
     }
-    scnr.close();
    }
 }
