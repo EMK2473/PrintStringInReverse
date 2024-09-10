@@ -11,6 +11,10 @@ public class PrintStringInReverse {
         String reverseString = "";
         int index = origString.length() - 1;
 
+        if (origString.equalsIgnoreCase("done") || origString.equalsIgnoreCase("d")) {
+            return;
+         }
+
         while(index >= 0) {
             reverseString += origString.charAt(index);
             index--;
